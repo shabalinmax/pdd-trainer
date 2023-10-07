@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1200px;
+
+  .title {
+    text-align: center;
+    font-size: var(--titleFontSize);
+  }
+
+  .continueBtns {
+    margin-top: 20px;
+    opacity: 1;
+    transition: opacity 2s;
+    .btn {
+      margin: 0 5px;
+    }
+  }
+
+  .continueBtnsHide {
+    opacity: 0;
+    transition: opacity 2s;
+  }
+}
