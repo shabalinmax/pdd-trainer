@@ -15,9 +15,28 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "paths": {
-      "src/*": ["src/*"]
+      "~app": ["./app"],
+      "~app/*": ["./app/*"],
+
+      "~processes": ["./processes"],
+      "~processes/*": ["./processes/*"],
+
+      "~pages": ["./pages"],
+      "~pages/*": ["./pages/*"],
+
+      "~widgets": ["./widgets"],
+      "~widgets/*": ["./widgets/*"],
+
+      "~features": ["./features"],
+      "~features/*": ["./features/*"],
+
+      "~entities": ["./entities"],
+      "~entities/*": ["./entities/*"],
+
+      "~shared": ["./shared"],
+      "~shared/*": ["./shared/*"]
     }
   },
   "include": [
