@@ -1,0 +1,62 @@
+// Обнуление стандартных стилей
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+// Сброс стилей для списка
+ul, ol {
+  list-style: none;
+}
+
+// Убираем подчеркивание для ссылок
+a {
+  text-decoration: none;
+}
+
+// Сброс стилей для таблицы
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// Обнуляем отступы для элементов списка
+ul, ol {
+  padding-left: 0;
+}
+
+// Обнуляем стили для формы
+button, input, select, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+// Убираем стили для кнопок
+button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+// Убираем фокусное состояние по умолчанию
+button:focus, input:focus, select:focus, textarea:focus {
+  outline: none;
+}
